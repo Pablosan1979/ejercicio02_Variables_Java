@@ -166,7 +166,7 @@ public class Tiempo extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(calcular, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(horas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(valHoras, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
@@ -218,7 +218,7 @@ public class Tiempo extends javax.swing.JFrame {
         int segundos = minutos * 60;
         valSegundos.setText(String.valueOf(segundos));
 
-        lblResultadoTotal.setText(("para: " + dias.getValue().toString() + " dias ") + ("tendremos: " + valHoras.getText() + " horas ")
+        lblResultadoTotal.setText(("Para: " + dias.getValue().toString() + " dias ") + ("tendremos: " + valHoras.getText() + " horas ")
                 + ("o " + valMinutos.getText() + " minutos ") + ("o " + valSegundos.getText() + " segundos"));
     }//GEN-LAST:event_calcularActionPerformed
 
